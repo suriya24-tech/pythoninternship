@@ -1,0 +1,2 @@
+str="CoronaVirus"
+print(str[1:])

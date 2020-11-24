@@ -1,0 +1,8 @@
+#Three Variables intialization
+a=b=c=50
+div=a/10
+mul=b*50
+add=c+60
+print(div)
+print(mul)
+print(add)

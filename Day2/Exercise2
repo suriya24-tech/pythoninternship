@@ -1,0 +1,4 @@
+#Replace One String Letter to another
+String="Alone"
+String2=String.replace(String[3],"G")
+print(String2)

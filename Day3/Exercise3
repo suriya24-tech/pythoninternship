@@ -1,0 +1,5 @@
+#Conversion of One Data type to Another
+a=int(input())
+b=float(input())
+print(float(a))
+print(int(b))

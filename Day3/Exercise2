@@ -1,0 +1,6 @@
+#Deleting key in a Dictionary
+d1={"1":"One","2":"Two","3":"Three"}
+print(d1)
+if '1' in d1:
+    del d1['1']
+print(d1)

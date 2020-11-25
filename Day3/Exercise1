@@ -1,0 +1,6 @@
+#Merge Two Dictionaries
+d1={"1":"One","2":"Two","3":"Three"}
+d2={"4":"Four","5":"Five","6":"Six"}
+d=d1.copy()
+d.update(d2)
+print(d)

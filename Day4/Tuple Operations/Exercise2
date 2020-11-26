@@ -1,0 +1,4 @@
+#Python Program to create a tuple and print the reverse of that tuple:
+tuple1=(1,2,3,4,5)
+reverse=reversed(tuple1)
+print("The Reversed Tuple:",tuple(reverse))

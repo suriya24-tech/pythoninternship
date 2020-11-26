@@ -1,0 +1,4 @@
+#Python Program to create a tuple and convert tuple into list:
+tuple1=(1,2,3,4,5)
+alist=list(tuple1)
+print("The List:",list(alist))

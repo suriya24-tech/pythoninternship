@@ -1,0 +1,11 @@
+#Python Program to create a list of n integer values:
+list1=list(range(1,10))
+print("The required list is:",list1)
+list1.append(11)
+print("The Element to be added in a list is:",list1)
+list1.remove(5)
+print("The Element to be deleted in a list is:",list1)
+large=max(list1)
+print("The Maximum Element in a list:",large)
+minimum=min(list1)
+print("The Minimum Element in a list:",minimum)

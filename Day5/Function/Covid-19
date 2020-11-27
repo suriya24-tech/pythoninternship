@@ -1,0 +1,9 @@
+def covid(patientname,bodytemperature=98) -> object:
+       print("Enter the patient name:",patientname)
+       print("Enter body temperature:",bodytemperature,"degree")
+
+
+
+patientname=input("Enter the patient name:")
+bodytemperature=input("Enter the body temperature:")
+covid(patientname,bodytemperature=98)

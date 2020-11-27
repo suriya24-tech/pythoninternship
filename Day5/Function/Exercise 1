@@ -1,0 +1,10 @@
+def math(x,y) -> object:
+    print("The Addition of two numbers:", x + y)
+    print("The Subtraction of two numbers:", x - y)
+    print("The Division of two numbers:", x // y)
+    print("The Multiplication of two numbers:", x * y)
+
+
+x = int(input("Enter the value of x:"))
+y=int(input("Enter the value of y:"))
+math(x,y)

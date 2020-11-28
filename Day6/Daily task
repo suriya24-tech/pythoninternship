@@ -1,0 +1,6 @@
+#Python Program to add +2 to every value of elements in a list
+test_list1=[2,4,6,8,10]
+res_list=[]
+for i in range(0,len(test_list1)):
+    res_list.append(test_list1[i]+2)
+print("Resultant list is: "+str(res_list))

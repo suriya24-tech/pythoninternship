@@ -1,0 +1,16 @@
+#Armstrong Number:
+num = int(input("Enter the Number:"))
+sum1: int = 0
+temp = 0
+while temp > 0:
+    digit = temp % 10
+    sum1 = sum1 + digit ** 3
+    temp = temp // 10
+if num == sum1:
+    print(num, "is an Armstrong Number")
+else:
+    print(num, "is not An Armstrong Number")
+
+Output:
+Enter the Number:407
+407 is not An Armstrong Number

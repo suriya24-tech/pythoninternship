@@ -1,0 +1,7 @@
+number=int(input("Enter the number of days:"))
+ages=number/365
+print("The Age is:",int(ages))
+
+Output:
+Enter the number of days:730
+The Age is: 2

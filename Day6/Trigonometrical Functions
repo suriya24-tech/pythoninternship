@@ -1,0 +1,8 @@
+import math
+print (math.sin(0.00))
+print (math.sin(-1.23))
+print(math.cos(30))
+Output:
+0.0
+-0.9424888019316975
+0.15425144988758405

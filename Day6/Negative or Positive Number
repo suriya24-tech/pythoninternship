@@ -1,0 +1,9 @@
+num=int(input("Enter the Number:"))
+if num > 0:
+    print("The Given Number ",num,"is a positive number")
+elif num < 0:
+    print("The Given Number",num,"is a negative number")
+Output:
+Enter the Number:-11
+The Given Number -11 is a negative number
+ 

@@ -1,0 +1,10 @@
+4.When try-except scenario is not required?
+
+try-except scenario is not required if you are not going to have any runtime error in your python program. if there is any possibility that there might exist a runtime error, you must use a try - except scenario in order to avoid a crash, and guide the user with proper message.
+
+Try getting an input inside the try catch block
+
+try:
+    num = int(input("Enter a value: "))
+except ValueError:
+    print("Value error - Invalid Input")

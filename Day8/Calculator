@@ -1,0 +1,20 @@
+operators = '+ - x / \n'
+try:
+    num1 = int(input("Enter a number :"))
+    print(operators)
+    taken_symbol=input("Enter the operator for the calculation")
+    num2 = int(input("Enter other number:"))
+    
+    if taken_symbol in operators:
+        if taken_symbol=='+':
+            print(num1,'+',num2,'=',num1+num2)
+        elif taken_symbol=='-':
+            print(num1,'-',num2,'=',num1-num2)
+        elif taken_symbol=='x':
+            print(num1,'x',num2,'=',num1*num2)
+        elif taken_symbol=='/':
+            print(num1,'/',num2,'=',num1/num2)
+except ValueError:
+     print("Enter Proper Numbers For Input!")
+except ZeroDivisionError:
+    print("Unable to Divide by Zero (0) !")

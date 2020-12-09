@@ -1,0 +1,6 @@
+a = [2879, 94498, 93493, 74949, 804]
+result=filter(lambda x:x%2==0,a)
+print(list(result))
+
+Output:
+[804,94498]

@@ -1,0 +1,5 @@
+import random
+print("Random integer is:",random.randint(0,100))
+
+Output:
+Random Integer is:68

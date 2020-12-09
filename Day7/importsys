@@ -1,0 +1,12 @@
+import sys
+print('\n'.join(sys.path))
+ 
+ Output:
+ C:\Users\HP\Desktop\python programs\pythonProject
+C:\Users\HP\Desktop\python programs\pythonProject
+C:\Users\HP\AppData\Local\Programs\Python\Python38-32\python38.zip
+C:\Users\HP\AppData\Local\Programs\Python\Python38-32\DLLs
+C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib
+C:\Users\HP\AppData\Local\Programs\Python\Python38-32
+C:\Users\HP\Desktop\python programs\pythonProject\venv
+C:\Users\HP\Desktop\python programs\pythonProject\venv\lib\site-packages

@@ -1,0 +1,14 @@
+nums=[1,3,5,7,9,11]
+n=int(input("Enter the Number:"))
+print("Original List:",nums)
+print("Given Number:",n)
+numbers=list(map(lambda number:number*n,nums))
+print("Result:")
+print(' '.join(list(map(str,numbers))))
+
+Output:
+Enter the Number:12
+Original List: [1, 3, 5, 7, 9, 11]
+Given Number: 12
+Result:
+12 36 60 84 108 132

@@ -1,0 +1,12 @@
+def fibonacci(a):
+   list1 = [0, 1]
+
+   any(map(lambda _:list1.append(sum(list1[-2:])),
+         range(2, a)))
+
+   return list1[:a]
+
+print(fibonacci(8))
+
+Output:
+[0,1,1,2,3,5,8,13]

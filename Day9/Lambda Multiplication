@@ -1,0 +1,9 @@
+l=lambda x,y:x*y
+x=int(input("Enter the First Number:"))
+y=int(input("Enter the Second Number:"))
+print(l(x,y))
+
+Output:
+Enter the First Number:45
+Enter the Second Number:45
+2025
